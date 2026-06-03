@@ -12,10 +12,9 @@
 body {
   background-color: var(--Stone100);
   display: flex;
-  align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  font-size: 0625rem;
+  padding-block: 12vh;
+  font-size: 1rem;
 }
 p,
 li,
@@ -37,10 +36,9 @@ h2 {
   color: var(--Brown800);
 }
 main {
-  max-width: calc(37rem);
-  margin: auto;
+  max-width: 37rem;
   background-color: white;
-  padding: calc(2.5rem);
+  padding: 2rem;
   border-radius: 2rem;
 }
 section {
@@ -97,7 +95,7 @@ ol li {
 }
 .nut-table .label {
   width: 60%;
-  padding-left: calc(2rem);
+  padding-left: calc();
 }
 .nut-table .value {
   font-weight: 600;
