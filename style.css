@@ -15,7 +15,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  font-size: 1rem;
+  font-size: 0625rem;
 }
 p,
 li,
@@ -25,7 +25,7 @@ td {
   font-family: var(--font-body);
 }
 li {
-  margin-bottom: 0.6rem;
+  margin-block-end: calc(0.6rem);
 }
 h1,
 h2 {
@@ -72,14 +72,14 @@ ul li::marker {
 }
 ul li {
   margin-right: calc(1rem);
-  padding-left: 1rem;
+  padding-left: calc(1rem);
 }
 ol li::marker {
   color: var(--Brown800);
 }
 ol li {
   margin-right: calc(1rem);
-  padding-left: 1rem;
+  padding-left: calc(1rem);
 }
 .ingredients,
 .instruction {
@@ -97,7 +97,7 @@ ol li {
 }
 .nut-table .label {
   width: 60%;
-  padding-left: 2rem;
+  padding-left: calc(2rem);
 }
 .nut-table .value {
   font-weight: 600;
